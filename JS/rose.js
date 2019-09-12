@@ -1,0 +1,2 @@
+// JavaScript Document
+$(document).ready(function(){$('.nav li.dropdown').hover(function(){$(this).addClass('open')},function(){$(this).removeClass('open');$('.nav li.dropdown').removeClass('open')})});
